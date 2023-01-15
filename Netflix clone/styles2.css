@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url(image2.png);
+  background-color: black;
+}
+header{
+  width: 12%; 
+  margin-left: 30px;
+  padding: 1.8% 0;
+}
+main{
+  position: absolute;
+  margin-left: 36%;
+  margin-top: 1%;
+  width: 440px;
+  height: 590px;
+  background-color: black;
+}
+
+main h1{
+  color: white;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+input{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 320px;
+  height: 47px;
+  background-color: #333;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+}
+
+input::placeholder{
+  font-size: 17px;
+  margin-left: 15px;
+  padding: 12px;
+}
+
+input[type=submit]{
+  width: 320px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+input[type=checkbox]{
+  width: 25px;
+  height: 18px;
+  border-radius: 5px;
+}
+
+label{
+  color: rgb(125, 119, 119);
+}
+
+#fill-in a{
+  float: right;
+  margin-top: 24px;
+  margin-right: 64px;
+  color: rgb(125, 119, 119);
+  text-decoration:none
+}
+
+.content{
+  position: absolute;
+  margin-top: 80px;
+  font-size: 9px;
+  margin-left: 55px;
+}
+
+#logini{
+margin-top: 100%;
+}
+
+.content h2{
+  color: rgb(125, 119, 119);
+}
+
+
+footer{
+  position:relative;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  padding: 4% 0 2% 0;
+  text-decoration: none;
+  color: #737373;
+  margin-top: 50%;
+}
+
+
+#phoneNumber{
+  width: 60%;
+  margin: 0 auto;
+}
+
+table{
+  width: 60%;
+  margin: 1.5% auto;
+  font-size: 0.8em;
+}
+td{
+  width: 25%;
+  padding: 1% 0;
+  text-align: left;
+}
+
+#language {
+  background-color: black;
+  color: #737373 ;
+  border: 2px solid gray;
+  width: 80px;
+  margin-left: 20%;
+}
